@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="341f3087-faa4-4e83-81ca-c13e858ac654" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OMDbApiWrapper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/omdb-api-wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Movie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OmdbApiWrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/request.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1jyX8p11T6H6f4JYDvKxcspUDq2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="JSInitializeFieldsIntentionBase.visibility" value="public" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.9.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/helpers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="Test request helper.should return an object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/request.test.js" />
+      <test-names>
+        <test-name value="Test request helper" />
+        <test-name value="should return an object" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test request helper.should throw an error" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/request.test.js" />
+      <test-names>
+        <test-name value="Test request helper" />
+        <test-name value="should throw an error" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/test.test.js" />
+      <test-names>
+        <test-name value="test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test:unit" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:unit" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="Jest.Test request helper.should return an object" />
+        <item itemvalue="npm.test:unit" />
+        <item itemvalue="Jest.Test request helper.should throw an error" />
+        <item itemvalue="Jest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="341f3087-faa4-4e83-81ca-c13e858ac654" name="Default Changelist" comment="" />
+      <created>1604777149746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604777149746</updated>
+      <workItem from="1604777151143" duration="100000" />
+      <workItem from="1604777366075" duration="13522000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1529" y="499" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604783629160">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state x="1529" y="499" key="#com.intellij.fileTypes.FileTypeChooser/2560.-1062.1692.2985/0.23.2560.1353@0.23.2560.1353" timestamp="1604783629160" />
+    <state x="1656" y="417" key="#com.intellij.ide.util.MemberChooser" timestamp="1604791665418">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state x="1656" y="417" key="#com.intellij.ide.util.MemberChooser/2560.-1062.1692.2985/0.23.2560.1353@0.23.2560.1353" timestamp="1604791665418" />
+    <state width="1413" height="308" key="GridCell.Tab.0.bottom" timestamp="1604791981567">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state width="1413" height="308" key="GridCell.Tab.0.bottom/2560.-1062.1692.2985/0.23.2560.1353@0.23.2560.1353" timestamp="1604791981567" />
+    <state width="1413" height="308" key="GridCell.Tab.0.center" timestamp="1604791981567">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state width="1413" height="308" key="GridCell.Tab.0.center/2560.-1062.1692.2985/0.23.2560.1353@0.23.2560.1353" timestamp="1604791981567" />
+    <state width="1413" height="308" key="GridCell.Tab.0.left" timestamp="1604791981566">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state width="1413" height="308" key="GridCell.Tab.0.left/2560.-1062.1692.2985/0.23.2560.1353@0.23.2560.1353" timestamp="1604791981566" />
+    <state width="1413" height="308" key="GridCell.Tab.0.right" timestamp="1604791981567">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state width="1413" height="308" key="GridCell.Tab.0.right/2560.-1062.1692.2985/0.23.2560.1353@0.23.2560.1353" timestamp="1604791981567" />
+    <state x="1300" y="338" key="SettingsEditor" timestamp="1604784466555">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state x="1300" y="338" key="SettingsEditor/2560.-1062.1692.2985/0.23.2560.1353@0.23.2560.1353" timestamp="1604784466555" />
+    <state x="1508" y="332" width="670" height="676" key="search.everywhere.popup" timestamp="1604790347972">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state x="1508" y="332" width="670" height="676" key="search.everywhere.popup/2560.-1062.1692.2985/0.23.2560.1353@0.23.2560.1353" timestamp="1604790347972" />
+  </component>
+</project>
