@@ -9,9 +9,9 @@
     "prepare": "npm run build",
     "publish": "npm publish || true"
   },
-  "main": "src/index.js",
+  "main": "build/omdb-api-wrapper.min.js",
   "files": [
-    "src"
+    "build"
   ],
   "author": "Michal Rokita <michal.rokita17@gmail.com>",
   "license": "MIT",
