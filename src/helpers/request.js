@@ -81,6 +81,8 @@ const buildUrl = (base = '', params = {}) => {
 const get = async (url = '', data = {}) => {
     validateUrl(url)
 
+    url = buildUrl(url, data)
+
     return await request(url, 'GET')
 }
 
