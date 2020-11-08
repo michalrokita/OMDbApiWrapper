@@ -9,5 +9,9 @@ module.exports = {
             },
         ],
     ],
-    plugins: ['@babel/plugin-transform-modules-umd']
+    plugins: [
+        '@babel/plugin-transform-modules-umd',
+        '@babel/plugin-proposal-class-properties',
+        '@babel/plugin-proposal-private-methods'
+    ]
 }
