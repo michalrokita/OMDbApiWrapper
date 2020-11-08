@@ -49,6 +49,14 @@ export default class MovieSearchCollection {
         await this.page(this.#currentPage + 1)
     }
 
+    totalResults() {
+        return this.#totalResults
+    }
+
+    perPage() {
+        return 10
+    }
+
     async #fetch() {
         this.#params.page = this.#currentPage
 
