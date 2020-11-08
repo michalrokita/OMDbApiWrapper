@@ -17,12 +17,6 @@ if (process.env.NODE_ENV === 'production') {
     filename += '.js'
 }
 
-//plugins.push(new webpack.ProvidePlugin({
-//    'Promise': 'es6-promise',
-//    'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
-//}))
-
-
 module.exports = {
     entry: path.resolve('./src/index.js'),
     output: {
