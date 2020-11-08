@@ -1,6 +1,6 @@
 {
   "name": "omdb-async-api-wrapper",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "A JS wrapper around www.omdbapi.com API.",
   "scripts": {
     "build": "NODE_ENV=development webpack --config config/webpack.config.js",
