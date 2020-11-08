@@ -43,19 +43,19 @@ API's *page* param in order to make pagination a breeze.
 const movieSearchCollection = await wrapperInstance.searchByTitle(__title__)
 const currentPageResults = movieSearchCollection.results()
 
-movieSearchCollection.nextPage()
+await movieSearchCollection.nextPage()
 const nextPageResults = movieSearchCollection.results()
 
-movieSearchCollection.prevPage()
+await movieSearchCollection.prevPage()
 const prevPageResults = movieSearchCollection.results()
 
-movieSearchCollection.page(20)
+await movieSearchCollection.page(20)
 const twentiethPageResults = movieSearchCollection.results()
 
 ```
 
 ### Filters
-While searching, you can also use filters. Available filters are: item's type, and a year of the release.
+While searching, you can also use filters. Available filters are: item's type, and a year of release.
 ```js
 wrapperInstance.setSearchedType('movie') // movie|series|episode
 wrapperInstance.setReleaseYear(1999)
@@ -66,7 +66,7 @@ wrapperInstance.resetFilters()
 ```
 
 ### Other search variables
-When fetching specific movie/series you can decide if you want to get the shortened version of the
+When fetching specific movie/series, you can decide if you want to get the shortened version of the
 plot or the whole thing.
 ```js
 wrapperInstance.setPlotType('short') // short|full
