@@ -1,4 +1,4 @@
-#OMDbApiWrapper
+# OMDbApiWrapper
 A small wrapper around omdbapi.com RESTful API.
 
 ## Installation (NPM)
@@ -12,6 +12,9 @@ from the */build* folder directly from Github. Alternatively, you can clone the 
 project yourself.
 
 In order to build the project locally, run `npm build:prod` in the terminal.
+
+## Dependency transpilation (Npm import)
+The library uses the newest version of the Javascript language, therefore you need to transplite it via Babel. Eg. When using Vue Cli, add **omdb-async-api-wrapper** to the *transpileDependecies*.
 
 ## Documentation
 
