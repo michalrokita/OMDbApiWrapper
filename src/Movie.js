@@ -6,12 +6,12 @@ export default class Movie {
     imdbId
     type
     posterUrl
-    constructor (title, year, imdbId, type, posterUrl) {
-        this.#setTitle(title)
-        this.#setYear(year)
-        this.#setImdbId(imdbId)
-        this.#setType(type)
-        this.#setPosterUrl(posterUrl)
+    constructor ({Title, Year, imdbID, Type, Poster}) {
+        this.#setTitle(Title)
+        this.#setYear(Year)
+        this.#setImdbId(imdbID)
+        this.#setType(Type)
+        this.#setPosterUrl(Poster)
     }
 
     #setTitle(title) {
