@@ -57,6 +57,10 @@ export default class MovieSearchCollection {
         return 10
     }
 
+    currentPage() {
+        return this.#currentPage
+    }
+
     async #fetch() {
         this.#params.page = this.#currentPage
 
