@@ -151,10 +151,6 @@ export class OmdbApiWrapper {
 
         const results = await this.#makeRequest(params)
 
-        if (typeof results.Error !== 'undefined') {
-            throw new Error(results.Error)
-        }
-
         return new MovieSearchCollection(results, params, this.#api)
     }
 
@@ -186,7 +182,13 @@ export class OmdbApiWrapper {
      * @return {Promise<*>}
      */
     async #makeRequest(params) {
-        return await get(this.#api, params)
+        const results =  await get(this.#api, params)
+
+        if (typeof results.Error !== 'undefined') {
+            throw new Error(results.Error)
+        }
+
+        return results
     }
 }
 
