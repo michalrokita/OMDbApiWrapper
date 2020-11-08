@@ -24,15 +24,19 @@ const validateUrl = (url = '') => {
  * @throws InvalidUrlException
  * @throws Error
  */
-const request = async (url = '', method = 'POST', body = '') => {
+const request = async (url = '', method = 'POST', body = null) => {
     validateUrl(url)
+
+    let headers = {}
+
+    if (method === 'POST') {
+        headers['Content-Type'] = 'application/json'
+    }
 
     return await fetch(url, {
         method,
         body,
-        headers: {
-            'Content-Type': 'application/json'
-        }
+        headers
     })
         .then(response => response.json())
         .catch(error => {
